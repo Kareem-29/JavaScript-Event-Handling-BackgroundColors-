@@ -1,0 +1,98 @@
+.btnsContainer {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  background-color: #26282a;
+  flex-wrap: wrap;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 250px;
+  border-radius: 10%;
+  box-shadow: 0px 0px 16px 10px rgba(0, 255, 255, 0.7);
+}
+
+.btns {
+  margin: 10px;
+  width: 60px;
+  height: 60px;
+  font-weight: bold;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  text-shadow: 1px 1px 5px white, 0 0 25px white, 0 0 10px white;
+}
+
+.btns:hover{
+    cursor: pointer;
+}
+
+#green {
+  background-color: rgb(0, 128, 0, 0.8);
+  box-shadow: 1px 1px 16px 5px green;
+  
+}
+
+#red {
+  background-color: rgba(255, 0, 0, 0.8);
+  box-shadow: 1px 1px 16px 5px red;
+  
+}
+
+#blue {
+  background-color: rgba(0, 0, 255, 0.8);
+  box-shadow: 1px 1px 16px 5px blue;
+
+}
+
+#yellow {
+  background-color: rgba(255, 255, 0, 0.8);
+  box-shadow: 1px 1px 16px 5px yellow;
+ 
+}
+
+#pink {
+  background-color: rgba(255, 192, 203, 0.8);
+  box-shadow: 1px 1px 16px 5px pink;
+ 
+}
+
+#purple {
+  background-color: rgba(128, 0, 128, 0.8);
+  box-shadow: 1px 1px 16px 5px purple;
+ 
+}
+
+#black {
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 1px 1px 16px 5px black;
+  
+}
+
+#orange {
+  background-color: rgba(255, 166, 0, 0.8);
+  box-shadow: 1px 1px 16px 5px orange;
+ 
+}
+
+#grey {
+    background-color: rgba(128, 128, 128, 0.8);
+    box-shadow: 1px 1px 16px 5px grey;
+    
+  }
+
+  #brown {
+    background-color: rgba(165, 42, 42, 0.8);
+    box-shadow: 1px 1px 16px 5px brown;
+  }
+
+  #cyan {
+    background-color: rgba(0, 255, 255, 0.8);
+    box-shadow: 1px 1px 16px 5px cyan;
+  }
+
+  #violet {
+    background-color: rgba(238, 130, 238, 0.8);
+    box-shadow: 1px 1px 16px 5px violet;
+  }

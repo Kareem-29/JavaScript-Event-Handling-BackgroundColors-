@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JavaScript Event Handling</title>
+    <link rel="stylesheet" href="btns.css" />
+  </head>
+  <body>
+    <div class="btnsContainer">
+      <button class="btns" id="green">Green</button>
+      <button class="btns" id="red">Red</button>
+      <button class="btns" id="blue">Blue</button>
+      <button class="btns" id="yellow">Yellow</button>
+      <button class="btns" id="pink">Pink</button>
+      <button class="btns" id="purple">Purple</button>
+      <button class="btns" id="black">Black</button>
+      <button class="btns" id="orange">Orange</button>
+      <button class="btns" id="grey">Grey</button>
+      <button class="btns" id="brown">Brown</button>
+      <button class="btns" id="cyan">Cyan</button>
+      <button class="btns" id="violet">Violet</button>
+    </div>
+
+    <script>
+      var g = document.getElementById("green");
+      var r = document.getElementById("red");
+      var b = document.getElementById("blue");
+      var y = document.getElementById("yellow");
+      var p = document.getElementById("pink");
+      var pu = document.getElementById("purple");
+      var bl = document.getElementById("black");
+      var o = document.getElementById("orange");
+      var gry = document.getElementById("grey");
+      var br = document.getElementById("brown");
+      var cyan = document.getElementById("cyan");
+      var vio = document.getElementById("violet");
+
+      g.addEventListener("click", Gcolor);
+      r.addEventListener("click", Rcolor);
+      b.addEventListener("click", Bcolor);
+      y.addEventListener("click", Ycolor);
+      p.addEventListener("click", Pcolor);
+      pu.addEventListener("click", PUcolor);
+      bl.addEventListener("click", BLcolor);
+      o.addEventListener("click", Ocolor);
+      gry.addEventListener("click", GRYcolor);
+      br.addEventListener("click", BRcolor);
+      cyan.addEventListener("click", Cyancolor);
+      vio.addEventListener("click", Viocolor);
+
+      function Gcolor() {
+        document.body.style.backgroundColor = "green";
+      }
+      function Rcolor() {
+        document.body.style.backgroundColor = "red";
+      }
+      function Bcolor() {
+        document.body.style.backgroundColor = "blue";
+      }
+      function Ycolor() {
+        document.body.style.backgroundColor = "yellow";
+      }
+      function Pcolor() {
+        document.body.style.backgroundColor = "pink";
+      }
+      function PUcolor() {
+        document.body.style.backgroundColor = "purple";
+      }
+      function BLcolor() {
+        document.body.style.backgroundColor = "black";
+      }
+      function Ocolor() {
+        document.body.style.backgroundColor = "orange";
+      }
+      function GRYcolor() {
+        document.body.style.backgroundColor = "grey";
+      }
+      function BRcolor() {
+        document.body.style.backgroundColor = "brown";
+      }
+      function Cyancolor() {
+        document.body.style.backgroundColor = "cyan";
+      }
+      function Viocolor() {
+        document.body.style.backgroundColor = "violet";
+      }
+    </script>
+  </body>
+</html>
